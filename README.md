@@ -25,7 +25,7 @@ For many other less common NMR experiments, the CASE software is not aware of th
 
 ## Case: Heteronuclear coupling is ignored
 
-Consider a <sup>31</sup>P-containing compound. If you compare a 1D <sup>1</sup>H spectrum with and without 31P decoupling, the J(<sup>1</sup>H,<sup>31</sup>P) could be measured automatically.
+Consider a <sup>31</sup>P-containing compound. If you compare a 1D <sup>1</sup>H spectrum with and without <sup>31</sup>P decoupling, the J(<sup>1</sup>H,<sup>31</sup>P) could be measured automatically.
 
 Consider a <sup>19</sup>F-containing compound. If you compare a {<sup>1</sup>H}, <sup>13</sup>C spectrum with and without {<sup>19</sup>F}, the J(<sup>13</sup>C,<sup>19</sup>F) could be measured automatically.
 
