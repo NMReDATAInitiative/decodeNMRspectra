@@ -1,10 +1,11 @@
 # decodeNMRspectra
 The goal of this project is to code the NMR parameters (chem. shift, J's, NOE, etc.) present in non-standard NMR spectra so that NMR software can exploit them.
-Code: 
-- What nuclei are decoupled (in 1D and the acquisition of 2D spectra)
+
+The data should include: 
+- What nuclei are decoupled (in 1D spectra and the acquisition dimension of 2D spectra)
 - What nuclei are (homo)decoupled in the first dimension of 2D spectra.
 - What is the relaxation process taking place and duration in relaxation experiments (NOESY, ROESY, etc. off-resonance ROESY, and 1D selective experiments)
-- Code the location of signals and how the coupling are expressed in in J-resolve experiments and homodecoupled variants such as g-serf, DIAG spectra, *etc.*
+- Code the location of signals and how the coupling are expressed in J-resolve experiments and homodecoupled variants such as g-serf, DIAG spectra, *etc.*
 
 If you have any interest in this project, [raise issues](https://github.com/NMReDATAInitiative/decodeNMRspectra/issues/new) or contact the author. This page will be further developed if interest is expressed.
 # Situation
