@@ -43,6 +43,13 @@ In some cases, spectra are recorded with high-resolution so that coupling consta
 ## Case: J-resolved and related spectra
 Numerous methodology developements resulted in 2D map similar to J-resolved spectra. The J-coupling are either expressed vertically, with 45 or -45 degree angle. Coding it would allow automated analysis of these spectra.
 
+# Related
+
+Ontology of pulse sequences : http://openaccess.uoc.edu/webapps/o2/handle/10609/126306 
+
+Automatic identification of NMR pulse sequence : https://www.nfdi4chem.de/index.php/event/fair-nmr-research-data-management-workshop-2/
+
+
 
 
 
