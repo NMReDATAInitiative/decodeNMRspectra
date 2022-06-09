@@ -1,8 +1,8 @@
 # decodeNMRspectra
-The goal of this project is to code the NMR parameters (chem. shift, J's, NOE, etc.) present in NMR spectra.
+The goal of this project is to code the NMR parameters (chem. shift, J's, NOE, etc.) present in non-standard NMR spectra.
 Code: 
 - What nuclei are decoupled (in 1D and the acquisition of 2D spectra)
-- What nuclei are (homo)decoupling during the 1D dimension of 2D spectra.
+- What nuclei are (homo)decoupled in the first dimension of 2D spectra.
 - What is the relaxation process taking place and duration in relaxation experiments (NOESY, ROESY, etc. off-resonance ROESY, and 1D selective experiments)
 - Code the location of signals how is the coupling expressed in in J-resolve experiments and homodecoupled variants, g-serf, DIAG spectra, etc.
 
@@ -16,7 +16,7 @@ Currently, only a few of NMR spectra are analysable by CASE software:
 - TOCSY (total scalar couping correlation)
 - NOESY/ROESY (2D relaxation experiment)
 - HSQC/HMQC (short-range heteronuclear correlations)
-- HMBC (long range heteronuclear correlations)
+- HMBC (long-range heteronuclear correlations)
 
 *Note*: {1H} means that 1H is decoupled.
 # Problem
@@ -47,7 +47,7 @@ Numerous methodology developements resulted in 2D map similar to J-resolved spec
 
 Ontology of pulse sequences : http://openaccess.uoc.edu/webapps/o2/handle/10609/126306 
 
-Automatic identification of NMR pulse sequence : https://www.nfdi4chem.de/index.php/event/fair-nmr-research-data-management-workshop-2/
+Reference to automatic identification of NMR pulse sequence : https://www.nfdi4chem.de/index.php/event/fair-nmr-research-data-management-workshop-2/
 
 
 
