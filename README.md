@@ -1,5 +1,5 @@
 # decodeNMRspectra
-The goal of this project is to code the NMR parameters (chem. shift, J's, NOE, etc.) present in non-standard NMR spectra.
+The goal of this project is to code the NMR parameters (chem. shift, J's, NOE, etc.) present in non-standard NMR spectra so that NMR software can exploit them.
 Code: 
 - What nuclei are decoupled (in 1D and the acquisition of 2D spectra)
 - What nuclei are (homo)decoupled in the first dimension of 2D spectra.
