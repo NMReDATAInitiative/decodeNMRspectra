@@ -12,7 +12,7 @@ If you have any interest in this project, [raise issues](https://github.com/NMRe
 
 Currently, only a few of NMR spectra are analysable by CASE software:
 - 1D <sup>1</sup>H (a 1D spectrum with coupling structure)
-- {<sup>1</sup>H}, <sup>13</sup>C (a 1D spectrum without coupling structure)
+- {<sup>1</sup>H} <sup>13</sup>C, DEPT, *etc.* (a 1D spectrum with - normally - no coupling structure)
 - COSY (a 2D with cross-peak at the coordinates of pairs of spins that are scalar coupled)
 - TOCSY (total scalar couping correlation)
 - NOESY/ROESY (2D relaxation experiment)
