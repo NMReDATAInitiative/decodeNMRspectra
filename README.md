@@ -11,23 +11,23 @@ If you have any interest in this project, [raise issues](https://github.com/NMRe
 
 Currently, only a few of NMR spectra are analysable by CASE software:
 - 1D 1H (a 1D spectrum with coupling structure)
-- {<sup>1</sup>H}, 13C (a 1D spectrum without coupling structure)
+- {<sup>1</sup>H}, <sup>13</sup>C (a 1D spectrum without coupling structure)
 - COSY (a 2D with cross-peak at the coordinates of pairs of spins that are scalar coupled)
 - TOCSY (total scalar couping correlation)
 - NOESY/ROESY (2D relaxation experiment)
 - HSQC/HMQC (short-range heteronuclear correlations)
 - HMBC (long-range heteronuclear correlations)
 
-*Note*: {1H} means that 1H is decoupled.
+*Note*: {<sup>1</sup>H} means that <sup>1</sup>H is decoupled.
 # Problem
 
 For many other less common NMR experiments, the CASE software is not aware of the information content of the spectrum and misses the information.
 
 ## Case: Heteronuclear coupling is ignored
 
-Consider a 31P-containing compound. If you compare a 1D 1H spectrum with and without 31P decoupling, the J(1H,31P) could be measured automatically.
+Consider a 31P-containing compound. If you compare a 1D <sup>1</sup>H spectrum with and without 31P decoupling, the J(<sup>1</sup>H,<sup>31</sup>P) could be measured automatically.
 
-Consider a 19F-containing compound. If you compare a {1H}, 13C spectrum with and without {19F}, the J(13C,19F) could be measured automatically.
+Consider a 19F-containing compound. If you compare a {<sup>1</sup>H}, <sup>13</sup>C spectrum with and without {<sup>19</sup>F}, the J(<sup>13</sup>C,<sup>19</sup>F) could be measured automatically.
 
 ## Case: homodecoupling is ignored
 
